@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import logo from '../assets/logo.svg';
-import '../style/css/app.css';
+import AutoCompleteInput from './AutoCompleteInput';
 
 class App extends Component {
   render() {
@@ -13,6 +13,7 @@ class App extends Component {
         <p className="App-intro">
           To get started, edit <code>src/App.js</code> and save to reload.
         </p>
+        <AutoCompleteInput />
       </div>
     );
   }
